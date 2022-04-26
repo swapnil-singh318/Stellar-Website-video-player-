@@ -1,0 +1,54 @@
+.comments {
+  margin: 26px 0 32px;
+}
+
+.inputComment {
+  display: flex;
+}
+
+.avatar {
+  margin-right: 16px;
+}
+
+form > input {
+  width: 40vw;
+  height: 20px;
+  border: none;
+  padding: 3px 3px 8px;
+  border-bottom: 1px solid lightgray;
+}
+
+form > input:focus {
+  outline: none;
+}
+
+button {
+  height: 30px;
+  color: #fff;
+  background-color: rgb(200, 53, 53) !important;
+}
+
+.userComment{
+    display: flex;
+    margin-top: 20px;
+}
+
+.userComment_text > h4{
+    margin: 0 20px;
+}
+
+.userComment_text > p{
+    margin: 4px 20px;
+    font-size: 15px;
+    color: rgb(77, 75, 75);
+}
+
+.commentToggle{
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 5px;
+    color: rgb(40, 39, 39);
+    font-weight: 600;
+}
+
+
